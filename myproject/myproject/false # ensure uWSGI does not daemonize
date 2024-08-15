@@ -1,0 +1,44 @@
+*** Starting uWSGI 2.0.26 (64bit) on [Thu Aug 15 16:32:20 2024] ***
+compiled with version: 11.4.1 20230605 (Red Hat 11.4.1-2) on 12 August 2024 21:17:46
+os: Linux-6.1.102-108.177.amzn2023.x86_64 #1 SMP PREEMPT_DYNAMIC Wed Jul 31 10:18:50 UTC 2024
+nodename: ip-172-31-29-123.us-west-2.compute.internal
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ec2-user/pbs_issue/myproject
+detected binary path: /home/ec2-user/pbs_issue/myenv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ec2-user/pbs_issue/myproject
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: enabled
+uWSGI http bound on 0.0.0.0:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:37475 (port auto-assigned) fd 3
+Python version: 3.9.16 (main, Jul  5 2024, 00:00:00)  [GCC 11.4.1 20230605 (Red Hat 11.4.1-2)]
+Python main interpreter initialized at 0x124b6d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 548840 bytes (535 KB) for 4 cores
+*** Operational MODE: preforking ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5595)
+spawned uWSGI worker 1 (pid: 5597, cores: 1)
+spawned uWSGI worker 2 (pid: 5598, cores: 1)
+spawned uWSGI worker 3 (pid: 5599, cores: 1)
+spawned uWSGI worker 4 (pid: 5600, cores: 1)
+spawned uWSGI http 1 (pid: 5601)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x124b6d0 pid: 5600 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x124b6d0 pid: 5597 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x124b6d0 pid: 5599 (default app)
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x124b6d0 pid: 5598 (default app)
+FROM HELLO_WORLD
+[pid: 5600|app: 0|req: 1/1] 127.0.0.1 () {28 vars in 324 bytes} [Thu Aug 15 16:32:41 2024] GET / => generated 12 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 206 bytes (1 switches on core 0)
+SIGINT/SIGTERM received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 5601)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.

@@ -1,0 +1,12 @@
+opentelemetry/instrumentation/system_metrics/__init__.py,sha256=Be9QCGicHGIdAoh3fB-iR4mVCGLKSqVcXLbC3ODgAew,30010
+opentelemetry/instrumentation/system_metrics/__pycache__/__init__.cpython-39.pyc,,
+opentelemetry/instrumentation/system_metrics/__pycache__/package.cpython-39.pyc,,
+opentelemetry/instrumentation/system_metrics/__pycache__/version.cpython-39.pyc,,
+opentelemetry/instrumentation/system_metrics/package.py,sha256=OG5IwCb05A_4MCPJflkazTTkW75kPZTRePQDzGObMqc,618
+opentelemetry/instrumentation/system_metrics/version.py,sha256=asa7q2ly73330-K1Q7vujpvZk7hfhasEZUzSFDPu1N8,608
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/METADATA,sha256=TNaDgb0AFiJW9-U0Drx-TEJuZFqqOyOB-7ZxSbXHIhk,1806
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/RECORD,,
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/WHEEL,sha256=zEMcRr9Kr03x1ozGwg5v9NQBKn3kndp6LSoSlVg-jhU,87
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/entry_points.txt,sha256=htJIP6ZbTgX-MyZhLBcqNvWvlfIAYoPMhtf2nZNQMsM,117
+opentelemetry_instrumentation_system_metrics-0.46b0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
