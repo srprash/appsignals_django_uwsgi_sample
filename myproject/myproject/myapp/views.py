@@ -8,5 +8,4 @@ logger = logging.getLogger('django')
 # Create your views here.
 
 def hello_world(request):
-    logger.warning("FROM HELLO_WORLD")
     return HttpResponse("Hello World!")

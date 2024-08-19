@@ -17,16 +17,17 @@ import logging
 logger = logging.getLogger('django')
 
 
-def post_fork_function():
+def load_instrumentation():
     try:
         logger.warning('INSIDE WSGI.PY:: attempting to load auto-instrumentation')
         from opentelemetry.instrumentation.auto_instrumentation import sitecustomize
-        sitecustomize.initialize()
     except ImportError:
         logger.warning('auto-instrumentation not available')
         pass
 
-post_fork_function()
+
+# UNCOMMENT THE FOLLOWING LINE TO LOAD ADOT PYTHON INSTRUMENTATION
+load_instrumentation()
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 

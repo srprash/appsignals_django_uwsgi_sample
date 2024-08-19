@@ -1,2 +1,0 @@
-[opentelemetry_instrumentor]
-sklearn = opentelemetry.instrumentation.sklearn:SklearnInstrumentor
