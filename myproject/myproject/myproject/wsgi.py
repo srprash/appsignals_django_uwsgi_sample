@@ -27,7 +27,7 @@ def load_instrumentation():
 
 
 # UNCOMMENT THE FOLLOWING LINE TO LOAD ADOT PYTHON INSTRUMENTATION
-load_instrumentation()
+# load_instrumentation()
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproject.settings')
 
